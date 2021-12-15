@@ -1,7 +1,7 @@
 # Onyx-Stepper-Motherboard
 The successor of the iconic Arduino-CNC-shield
 
-![Onyx_Assembled](./Pictures/onyx_front_render.png)
+![Onyx_Assembled](Pictures/onyx_front_render.PNG)
 
 The Arduino UNO + CNC shield has been the go-to setup for several CNC machines, robotic arms, drawing machines and what not! It's about time we replace the 8-bit microcontroller, with a powerful 32-bit, Wifi + BLE enabled ESP32!
 
