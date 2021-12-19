@@ -1,5 +1,4 @@
 # Onyx-Stepper-Motherboard
-The successor of the iconic Arduino-CNC-shield
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/CuriousMotor/Onyx-Stepper-Motherboard/main/Pictures/onyx_front_render.PNG" width="300" >
@@ -31,3 +30,9 @@ Currently the firmware works superb with GRBL_ESP32. We are in the process of ad
 ## Hardware
 
 All of the hardware is designed in KiCAD. It's a 2 layer PCB the uses all standard components available at JLCPCB. Currently the board only supports stepper drives in STEP/DIR mode, v2 would support SPI and UART as well.
+
+## Contributors
+
+<a href="https://github.com/CuriousMotor/Onyx-Stepper-Motherboard/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CuriousMotor/Onyx-Stepper-Motherboard" />
+</a>
