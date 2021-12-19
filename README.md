@@ -3,8 +3,9 @@ The successor of the iconic Arduino-CNC-shield
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/CuriousMotor/Onyx-Stepper-Motherboard/main/Pictures/onyx_front_render.PNG" width="300" >
+</p>
+<p align="center">
 <img src="https://raw.githubusercontent.com/CuriousMotor/Onyx-Stepper-Motherboard/main/Pictures/Onyx_prototype.jpg" width="300" >
-
 </p>
 
 The Arduino UNO + CNC shield has been the go-to setup for several CNC machines, robotic arms, drawing machines and what not! It's about time we replace the 8-bit microcontroller, with a powerful 32-bit, Wifi + BLE enabled ESP32!
