@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name TMC_symbols)(type Legacy)(uri ${KIPRJMOD}/Resources/symbols/TMC2208_SILENTSTEPSTICK.lib)(options "")(descr ""))
+  (lib (name polulu_driver_symbol)(type Legacy)(uri ${KIPRJMOD}/Resources/symbols/A4988_STEPPER_MOTOR_DRIVER_CARRIER.lib)(options "")(descr ""))
+  (lib (name MicroSD_Module)(type Legacy)(uri ${KIPRJMOD}/Resources/symbols/TF-15X15.lib)(options "")(descr ""))
+  (lib (name tactileSwitch)(type Legacy)(uri ${KIPRJMOD}/Resources/symbols/TS-1187A-B-A-B.lib)(options "")(descr ""))
+  (lib (name ESP32-WROOM-32D)(type Legacy)(uri ${KIPRJMOD}/Resources/symbols/ESP32-WROOM-32D.lib)(options "")(descr ""))
+  (lib (name ESP32-WROOM-32E)(type Legacy)(uri ${KIPRJMOD}/Resources/ESP32-WROOM-32E__16MB_/ESP32-WROOM-32E__16MB_.lib)(options "")(descr ""))
+)

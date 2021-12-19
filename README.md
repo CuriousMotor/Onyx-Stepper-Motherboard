@@ -3,7 +3,7 @@ The successor of the iconic Arduino-CNC-shield
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/CuriousMotor/Onyx-Stepper-Motherboard/main/Pictures/onyx_front_render.PNG" width="300" >
-<img src="https://raw.githubusercontent.com/CuriousMotor/Onyx-Stepper-Motherboard/main/Pictures/Pictures/Onyx_prototype.jpg" width="300" >
+<img src="https://raw.githubusercontent.com/CuriousMotor/Onyx-Stepper-Motherboard/main/Pictures/Onyx_prototype.jpg" width="300" >
 
 </p>
 

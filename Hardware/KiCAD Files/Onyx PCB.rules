@@ -1,0 +1,201 @@
+
+(rules PCB Onyx PCB
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 452)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 300.0)
+    (clear 250.2)
+    (clear 150.0 (type smd_to_turn_gap))
+    (clear 300.2 (type default_"3v3 Line"))
+    (clear 300.2 (type default_"5v line"))
+    (clear 400.2 (type default_"High Power"))
+    (clear 62.6 (type smd_smd))
+    (clear 300.2 (type smd_"3v3 Line"))
+    (clear 300.2 (type smd_"5v line"))
+    (clear 400.2 (type smd_"High Power"))
+    (clear 300.2 (type "kicad_default"_"3v3 Line"))
+    (clear 300.2 (type "kicad_default"_"5v line"))
+    (clear 400.2 (type "kicad_default"_"High Power"))
+    (clear 300.2 (type "3v3 Line"_"3v3 Line"))
+    (clear 300.2 (type "3v3 Line"_"5v line"))
+    (clear 400.2 (type "3v3 Line"_"High Power"))
+    (clear 300.2 (type "3v3 Line"_MidSize))
+    (clear 300.2 (type "5v line"_"5v line"))
+    (clear 400.2 (type "5v line"_"High Power"))
+    (clear 300.2 (type "5v line"_MidSize))
+    (clear 400.2 (type "High Power"_"High Power"))
+    (clear 400.2 (type "High Power"_MidSize))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_900:400_um"
+    (shape
+      (circle F.Cu 900.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 900.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_900:400_um" "Via[0-1]_900:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_900:400_um-kicad_default" "Via[0-1]_900:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-3v3 Line" "Via[0-1]_800:400_um" "3v3 Line"
+  )
+  (via 
+    "Via[0-1]_900:400_um-3v3 Line" "Via[0-1]_900:400_um" "3v3 Line"
+  )
+  (via 
+    "Via[0-1]_800:400_um-5v line" "Via[0-1]_800:400_um" "5v line"
+  )
+  (via 
+    "Via[0-1]_900:400_um-5v line" "Via[0-1]_900:400_um" "5v line"
+  )
+  (via 
+    "Via[0-1]_800:400_um-High Power" "Via[0-1]_800:400_um" "High Power"
+  )
+  (via 
+    "Via[0-1]_900:400_um-High Power" "Via[0-1]_900:400_um" "High Power"
+  )
+  (via 
+    "Via[0-1]_800:400_um-MidSize" "Via[0-1]_800:400_um" MidSize
+  )
+  (via 
+    "Via[0-1]_900:400_um-MidSize" "Via[0-1]_900:400_um" MidSize
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    "3v3 Line" "Via[0-1]_800:400_um-3v3 Line"
+  )
+  (via_rule
+    "5v line" "Via[0-1]_800:400_um-5v line"
+  )
+  (via_rule
+    "High Power" "Via[0-1]_900:400_um-High Power"
+  )
+  (via_rule
+    MidSize "Via[0-1]_800:400_um-MidSize"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND BOOT EN PROBE "X_LIMIT" "GRBL_RESET" "Y_LIMIT" START
+    "Z_LIMIT" HOLD "USB_D+" "USB_D-" "Net-(D7-Pad2)" "Net-(H1-Pad1)" "Net-(H2-Pad1)" "Net-(H3-Pad1)"
+    "Net-(H4-Pad1)" "Net-(J4-Pad4)" "Net-(J7-PadMP4)" "Net-(J7-PadMP3)" "Net-(J7-PadMP2)" "Net-(J7-PadMP1)" "Net-(J7-Pad9)" "Net-(J7-Pad8)"
+    MISO SCK MOSI CS "Net-(J7-Pad1)" "SERVO_5V_PWM" "SERVO2_PWM" "SPINDLE_CONNECTOR"
+    "Net-(JP1-Pad2)" "Net-(JP2-Pad2)" "Net-(JP3-Pad2)" "Net-(JP4-Pad2)" "Net-(JP5-Pad2)" "Net-(JP6-Pad2)" "Net-(JP7-Pad2)" "Net-(JP8-Pad2)"
+    "Net-(JP9-Pad2)" "Net-(JP10-Pad2)" "Net-(JP11-Pad2)" "Net-(JP12-Pad2)" "SPINDLE_5V_PWM" "Net-(Q1-Pad2)" RTS DTR
+    "Net-(Q2-Pad2)" "SPINDLE_ENABLE" "X_DIR" "X_STEP" "Net-(U1-Pad5)" "STEP_ENABLE" "A_STEP" RXD0
+    "A_DIR" "Net-(U2-Pad32)" "SPINDLE_PWM_3V3" "SERVO_3.3V_PWM" "Net-(U2-Pad17)" "Y_STEP" "Z_STEP" "Y_DIR"
+    "Z_DIR" "Net-(U3-Pad5)" "Net-(U4-Pad5)" "Net-(U5-Pad15)" "Net-(U5-Pad12)" "Net-(U5-Pad10)" "Net-(U6-Pad5)" "Net-(U7-Pad3)"
+    "Net-(U7-Pad2)" "Net-(U7-Pad5)" "Net-(J8-Pad8)" "Net-(J8-Pad6)" "Net-(J8-Pad4)" "Net-(J8-Pad2)" "Net-(C8-Pad2)" "Net-(C16-Pad2)"
+    "Net-(D8-Pad2)" "Net-(D9-Pad2)" TXD0 "Net-(U5-Pad11)" "Net-(U5-Pad9)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "3v3 Line"
+    +3V3
+    (clearance_class "3v3 Line")
+    (via_rule 3v3 Line)
+    (rule
+      (width 600.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "5v line"
+    "Net-(C14-Pad1)" +5V "Net-(Cboot1-Pad2)" "Net-(Cboot1-Pad1)" "Ext_5V" "Net-(R11-Pad2)"
+    (clearance_class "5v line")
+    (via_rule 5v line)
+    (rule
+      (width 600.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "High Power"
+    VIN "Net-(F1-Pad1)" "Net-(J1-Pad4)" "Net-(J1-Pad3)" "Net-(J1-Pad2)" "Net-(J1-Pad1)" "Net-(J2-Pad4)" "Net-(J2-Pad3)"
+    "Net-(J2-Pad2)" "Net-(J2-Pad1)" "Net-(J3-Pad4)" "Net-(J3-Pad3)" "Net-(J3-Pad2)" "Net-(J3-Pad1)" "Net-(J5-Pad4)" "Net-(J5-Pad3)"
+    "Net-(J5-Pad2)" "Net-(J5-Pad1)"
+    (clearance_class "High Power")
+    (via_rule High Power)
+    (rule
+      (width 800.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class MidSize
+    VBUS
+    (clearance_class MidSize)
+    (via_rule MidSize)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

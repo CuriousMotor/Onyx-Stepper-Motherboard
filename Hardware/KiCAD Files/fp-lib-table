@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TMC)(type KiCad)(uri ${KIPRJMOD}/Resources/footprints)(options "")(descr ""))
+)
