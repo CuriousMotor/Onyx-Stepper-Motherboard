@@ -1,12 +1,15 @@
 # Onyx-Stepper-Motherboard
 The successor of the iconic Arduino-CNC-shield
 
-<img src="https://raw.githubusercontent.com/CuriousMotor/Onyx-Stepper-Motherboard/main/Pictures/onyx_front_render.PNG" width="300">
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/CuriousMotor/Onyx-Stepper-Motherboard/main/Pictures/onyx_front_render.PNG" width="300" center>
+</p>
 
 The Arduino UNO + CNC shield has been the go-to setup for several CNC machines, robotic arms, drawing machines and what not! It's about time we replace the 8-bit microcontroller, with a powerful 32-bit, Wifi + BLE enabled ESP32!
 
-This project builds upon pioneering work done by GitHub user Bdring.
+**Bonus: It's 100% open source, including the PCB layout files!**
+
+This project builds upon pioneering work done by GitHub user [Barton Dring](https://github.com/bdring).
 
 ## Features
 
@@ -17,3 +20,11 @@ This project builds upon pioneering work done by GitHub user Bdring.
 5. 12/24V input power supply port
 6. Wifi + BLE support (Thanks to GRBL_ESP32)
 7. MicroSD card Support
+
+## Firmware
+
+Currently the firmware works superb with GRBL_ESP32. We are in the process of adding support for Marlin.
+
+## Hardware
+
+All of the hardware is designed in KiCAD. It's a 2 layer PCB the uses all standard components available at JLCPCB. Currently the board only supports stepper drives in STEP/DIR mode, v2 would support SPI and UART as well.
