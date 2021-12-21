@@ -36,6 +36,10 @@ All of the hardware is designed in **KiCAD**. It's a 2 layer PCB the uses all st
 <a href="https://github.com/CuriousMotor/Onyx-Stepper-Motherboard/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CuriousMotor/Onyx-Stepper-Motherboard" />
 </a>
+<a href="https://github.com/himanshuvashisht878">
+  <img src="https://avatars.githubusercontent.com/u/65850648?v=4" />
+</a>
+
 
 ## Support and Sponsorship
 We believe open source is the future, collaboration over competition. A lot of time and money goes into development and prototyping. If such projects make your work easier, consider '⭐-ing' the repository. (Yes, that's all it takes!)
