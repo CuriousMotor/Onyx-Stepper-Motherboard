@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.10)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.9)-1")
 
   (general
     (thickness 1.6)
@@ -3777,7 +3777,7 @@
     (pad 1 thru_hole rect (at -6.35 -8.89 90) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 78 STEP_ENABLE))
     (model "${KIPRJMOD}/Resources/3D files/A4988_STEPPER_MOTOR_DRIVER_CARRIER.step"
-      (at (xyz 0 0 0))
+      (offset (xyz 0 0 3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -3839,7 +3839,7 @@
     (pad 1 thru_hole rect (at -6.35 -8.89 90) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 78 STEP_ENABLE))
     (model "${KIPRJMOD}/Resources/3D files/A4988_STEPPER_MOTOR_DRIVER_CARRIER.step"
-      (at (xyz 0 0 0))
+      (offset (xyz 0 0 3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -3901,7 +3901,7 @@
     (pad 1 thru_hole rect (at -6.35 -8.89 90) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 78 STEP_ENABLE))
     (model "${KIPRJMOD}/Resources/3D files/A4988_STEPPER_MOTOR_DRIVER_CARRIER.step"
-      (at (xyz 0 0 0))
+      (offset (xyz 0 0 3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -3963,7 +3963,7 @@
     (pad 1 thru_hole rect (at -6.35 -8.89 90) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 78 STEP_ENABLE))
     (model "${KIPRJMOD}/Resources/3D files/A4988_STEPPER_MOTOR_DRIVER_CARRIER.step"
-      (at (xyz 0 0 0))
+      (offset (xyz 0 0 3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
