@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Onyx CNC Motherboard"
 Date "2021-09-21"
-Rev "V1.0"
+Rev "V1.1"
 Comp "Curious Motor"
 Comment1 "Contributors - Siddharth Kothari, Himanshu Vashisht"
 Comment2 ""
