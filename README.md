@@ -20,7 +20,7 @@ This project builds upon pioneering work done by GitHub user [Barton Dring](http
 3. 5V PWM outputs x 3
 4. Limit switch ports x 3 (X, Y and Z Axes)
 5. 12/24V input power supply port
-6. Wifi + BLE support (Thanks to GRBL_ESP32)
+6. Wifi + BLE support (Thanks to [GRBL_ESP32](https://github.com/bdring/Grbl_Esp32))
 7. MicroSD card Support
 
 ## Firmware
