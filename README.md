@@ -13,7 +13,7 @@ The Arduino UNO + CNC shield has been the go-to setup for several CNC machines, 
 
 This project builds upon pioneering work done by GitHub user [Barton Dring](https://github.com/bdring).
 
-### 3D Model
+## 3D Model
 A 3D model of the PCB can be conveniently viewed in the browser via **CADFlux**.
  - [Basic Model](https://www.cadflux.com/viewer?modelFile=experimental/users/siddharth_kothari/Onyx_PCB_Light.step) (loads faster)
  - [Detailed Model](https://www.cadflux.com/viewer?modelFile=experimental/users/siddharth_kothari/Onyx_PCB.step)
