@@ -18,6 +18,8 @@ A 3D model of the PCB can be conveniently viewed in the browser via **CADFlux**.
  - [Basic Model](https://www.cadflux.com/viewer?modelFile=experimental/users/siddharth_kothari/Onyx_PCB_Light.step) (loads faster)
  - [Detailed Model](https://www.cadflux.com/viewer?modelFile=experimental/users/siddharth_kothari/Onyx_PCB.step)
 
+## Blog
+[Here's a short blog on how this board was designed!](https://curiousmotor.com/2021/12/27/designing-the-onyx-v1-0-motherboard/)
 
 ## Features
 
@@ -40,8 +42,11 @@ All of the hardware is designed in **KiCAD**. It's a 2 layer PCB the uses all st
 ## Contributors
 
 <a href="https://github.com/CuriousMotor/Onyx-Stepper-Motherboard/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=CuriousMotor/Onyx-Stepper-Motherboard" />
+  <img src="https://contrib.rocks/image?repo=himanshuvashisht878/Onyx-Stepper-Motherboard" />
 </a>
+
+## Current Progress
+Onyx V1 has been thoroughly tested with a 'Dremel CNC', and it works like a charm. We are already ideating and working on a much more powerful V2!
 
 ## Support and Sponsorship
 We believe open source is the future, collaboration over competition. A lot of time and money goes into development and prototyping. If such projects make your work easier, consider '⭐-ing' the repository. (Yes, that's all it takes!)
